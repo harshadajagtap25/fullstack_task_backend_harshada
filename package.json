@@ -2,11 +2,11 @@
   "name": "todo_backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "app.js",
   "scripts": {
     "build": "tsc",
-    "start": "node src/app.js",
-    "dev": "nodemon --exec ts-node src/app.ts",
+    "start": "node app.js",
+    "dev": "nodemon --exec ts-node app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
